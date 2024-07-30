@@ -1,0 +1,29 @@
+.min_content_height {
+  height: calc(100vh - 226px);
+  overflow: auto;
+}
+.max_width {
+  width: calc(100% - 160px);
+}
+.popup_width {
+  width: 28%;
+}
+.scroll_height {
+  height: calc(100vh - 180px);
+}
+.scroll_height_selected_themes {
+  height: calc(100vh - 120px);
+}
+.letterSpacing {
+  letter-spacing: 0.4px;
+}
+
+.carousel_thumbnail {
+  /* Ensure no white space issues with thumbnails */
+  flex: 1 0 calc(100% / 6.5);
+  margin: 0 0.5rem;
+}
+.shareDiv {
+  margin-top: calc(100vh - 35%);
+  margin-bottom: calc(100vh - 35%);
+}

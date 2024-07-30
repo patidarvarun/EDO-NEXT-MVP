@@ -1,0 +1,33 @@
+{
+  "name": "edo-next-mvp",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@headlessui/react": "^2.1.1",
+    "daisyui": "^4.12.10",
+    "i": "^0.3.7",
+    "next": "14.2.4",
+    "npm": "^10.8.1",
+    "react": "^18",
+    "react-colorful": "^5.6.1",
+    "react-dom": "^18",
+    "react-swipeable": "^7.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "20.14.9",
+    "@types/react": "18.3.3",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.4.19",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.4",
+    "postcss": "^8.4.39",
+    "tailwindcss": "^3.4.4",
+    "typescript": "5.5.2"
+  }
+}
